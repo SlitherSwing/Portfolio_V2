@@ -1,0 +1,31 @@
+<svg width="100" height="140" viewBox="0 0 100 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .outline { fill: none; stroke: #222224; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .red-fill { fill: #EE1515; }
+      .white-fill { fill: #FFFFFF; }
+      .inside-fill { fill: #444444; }
+    </style>
+  </defs>
+
+  <g id="open-pokeball" transform="translate(50, 90)">
+    
+    <ellipse cx="0" cy="5" rx="35" ry="15" class="inside-fill"/>
+
+    <g id="bottom-half">
+        <path d="M -38,5 A 38,35 0 0 0 38,5" class="white-fill outline" />
+        <line x1="-38" y1="5" x2="38" y2="5" class="outline" stroke-width="6" />
+        <path d="M -10,5 A 10,10 0 0 0 10,5" class="white-fill outline" stroke-width="3"/>
+        <path d="M -5,5 A 5,5 0 0 0 5,5" fill="#ddd" />
+    </g>
+
+    <rect x="-6" y="-15" width="12" height="20" fill="#666" />
+
+    <g id="top-half" transform="translate(0, -35) rotate(-10)">
+        <path d="M -38,0 A 38,35 0 0 1 38,0" class="red-fill outline" />
+        <line x1="-38" y1="0" x2="38" y2="0" class="outline" stroke-width="6" />
+        <path d="M -10,0 A 10,10 0 0 1 10,0" class="white-fill outline" stroke-width="3"/>
+        <path d="M -5,0 A 5,5 0 0 1 5,0" fill="#ddd" />
+    </g>
+  </g>
+</svg>
