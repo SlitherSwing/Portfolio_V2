@@ -5,17 +5,17 @@ body {
 }
 
 .header {
-    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 48% 20%, 30% 45%, 0 45%);
     background-color: crimson;
-    height: 100px;
+    height: 12.5rem;
     position: sticky;
     top: 0;
     z-index: 1;
 }
 
 .profilPictureContainer {
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
@@ -57,11 +57,11 @@ body {
 }
 
 .linksBall {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     border-radius: 50%;
     border: 1px solid black;
-    margin: 20px;
+    margin: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,4 +82,112 @@ body {
     height: 30px;
     bottom: 0;
     z-index: 1;
+}
+
+
+/* Page Projets   */
+
+.projectsBody {
+    box-sizing: border-box;
+}
+
+.slider_focus {
+
+    max-width: 37.5rem;
+    margin: 1.25rem auto;
+    padding: 0 1rem;
+
+}
+
+.slider_focus ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    gap: .5rem;
+
+
+}
+
+
+.slider_focus ul li {
+
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+
+
+}
+
+.slider_focus ul li button {
+    all: unset;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    z-index: 10;
+}
+
+
+.slider_focus ul li button img {
+    will-change: transform;
+    transform: scale(1);
+    transition: transform .4s;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.slider_focus ul li span img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: calc(100% - 6rem);
+    width: 100%;
+    transform: translateX(-100%);
+    z-index: -1;
+    opacity: 0;
+    will-change: transform, opacity;
+    transition: transform .6s, opacity .6s;
+    object-fit: cover;
+}
+
+.slider_focus ul:not(:focus-within) li:first-child span img,
+.slider_focus ul li:focus-within span img {
+
+    transform: translateX(0%);
+    opacity: 1
+}
+
+
+.slider_focus ul li:focus-within {
+
+    outline: 2px solid black;
+    border-radius: 50%
+}
+
+
+.slider_focus ul li:not(:focus-within) button img {
+
+    transform: scale(.9);
+
+}
+
+.slider_focus ul:not(:focus-within) li:first-child button img {
+
+    transform: scale(1);
+
 }
