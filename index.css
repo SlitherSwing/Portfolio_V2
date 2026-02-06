@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    clip-path: polygon(0 0, 100% 0, 100% 25%, 35% 25%, 25% 40%, 0 40%);
+    clip-path: polygon(0 0, 100% 0, 100% 25%, 55% 25%, 35% 40%, 0 40%);
     background-color: crimson;
     height: 200px;
     position: sticky;
