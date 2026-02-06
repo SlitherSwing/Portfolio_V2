@@ -5,11 +5,12 @@ body {
 }
 
 .header {
-    clip-path: polygon(0 0, 100% 0, 100% 25%, 55% 25%, 35% 40%, 0 40%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
     background-color: crimson;
-    height: 200px;
+    height: 100px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .profilPictureContainer {
@@ -39,4 +40,46 @@ body {
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
+    margin-bottom: 40px;
+}
+
+.homeLinksContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.homeLinksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.linksBall {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linksText {
+    text-align: center;
+}
+
+.linksBall:hover {
+    box-shadow: 0 0 5px crimson;
+    transform: rotate(20deg) scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.footer {
+    background-color: crimson;
+    height: 30px;
+    bottom: 0;
+    z-index: 1;
 }
