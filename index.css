@@ -54,6 +54,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 10px;
@@ -84,6 +85,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 3px 3px 5px rgb(50, 50, 50);
 }
 
 .linksText {
@@ -91,7 +93,8 @@ body {
 }
 
 .linksBall:hover {
-    box-shadow: 0 0 5px crimson;
+    border: 1px solid crimson;
+    box-shadow: 0 0 10px crimson;
     transform: rotate(20deg) scale(1.1);
     transition: all 0.5s ease-in-out;
 }
@@ -246,4 +249,27 @@ body {
     background: rgba(0, 123, 255, 0.4);
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
     transform: translateY(-2px);
+}
+
+.imageContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.imageContainer a {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.allPImage {
+    width: 90%;
+    height: 90%;
 }
