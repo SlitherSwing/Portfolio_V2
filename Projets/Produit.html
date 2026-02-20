@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="Projet_3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="Page_Produit">
+    <div class="Barre_Nav">
+        <div class="Menu_Nav_Contenant">
+            <div class="Menu_Nav">
+                <a href="Index.html">
+                    <p class="Police_Blanche">ACCUEIL</p>
+                </a>
+                <a href="Catalogue.html">
+                    <p class="Police_Blanche">CATALOGUE</p>
+                </a>
+                <a href="Blog.html">
+                    <p class="Police_Blanche">BLOG</p>
+                </a>
+                <a href="Creation_Compte.html">
+                    <p class="Police_Blanche">CREATION COMPTE</p>
+                </a>
+            </div>
+            <div class="Menu_Nav2">
+                <a href="Produit.html">
+                    <p class="Police_Blanche">ACHETER</p>
+                </a>
+                <a href="A_Propos.html">
+                    <p class="Police_Blanche">CONTACT</p>
+                </a>
+                <a href="404.html"><img src="assets/icons8-settings.svg" class="Logo_Nav Barre_Laterale"></a>
+                <a href="Panier.html"><img src="assets/icons8-cart-32.png" class="Logo_Nav"></a>
+            </div>
+        </div>
+        <div class="Logo_Marque">
+            <img src="assets/epicerie/logo.webp" alt="Logo">
+        </div>
+        <div popover id="Menu_Hamburger">
+            <a href="Index.html">Home</a>
+            <a href="Catalogue.html">Catalogue</a>
+            <a href="Blog.html">Blog</a>
+            <a href="Creation_Compte.html">Creation Compte</a>
+            <a href="Produit.html">Acheter</a>
+            <a href="A_Propos.html">Contact</a>
+        </div>
+        <button popovertarget="Menu_Hamburger" class="Hamburger"><img src="assets/epicerie/icons8-menu.svg"></button>
+    </div>
+    <div class="Chemin Taille_Page">
+        <a href="Index.html">Home</a>
+        <span>/</span>
+        <a href="Produit.html">Redphase Unitrax</a>
+    </div>
+    <div class="Produit_Container">
+        <div class="Produit_Image">
+            <div class="Produit_Image_Principale"></div>
+            <div class="Produit_Miniatures"></div>
+            <picture>
+                <source srcset="assets/epicerie/25-800x800_415526d6-f9b2-4949-b383-d4a4d8be54e5_1024x1024.jpg.jpeg">
+                <source srcset="assets/epicerie/25-800x800_415526d6-f9b2-4949-b383-d4a4d8be54e5_1000x1000.jpg.jpeg">
+                <img src="assets/epicerie/25-800x800_415526d6-f9b2-4949-b383-d4a4d8be54e5_1024x1024.jpg.jpeg" alt="Pain"
+                    class="Produit_Image_Taille Presentation_Pain">
+            </picture>
+            <picture>
+                <source srcset="assets/epicerie/20-800x800_40dffd8e-7564-4076-af37-ed7c66fe45a3_1024x1024.jpg.jpeg">
+                <img src="assets/epicerie/20-800x800_40dffd8e-7564-4076-af37-ed7c66fe45a3_1024x1024.jpg.jpeg"
+                    alt="Brioche" class="Produit_Image_Taille Presentation_Brioche">
+            </picture>
+            <picture>
+                <source srcset="assets/epicerie/19-800x800_6dc8ff66-200e-4ffb-84e9-88f15e2a023c_1024x1024.jpg.jpeg">
+                <img src="assets/epicerie/19-800x800_6dc8ff66-200e-4ffb-84e9-88f15e2a023c_1024x1024.jpg.jpeg"
+                    alt="Charlotte" class="Produit_Image_Taille Presentation_Charlotte">
+            </picture>
+            <picture>
+                <source srcset="assets/epicerie/16-800x800_72da7fb9-2651-447d-9a38-536e9fc704cb_large.jpg.jpeg">
+                <img src="assets/epicerie/16-800x800_72da7fb9-2651-447d-9a38-536e9fc704cb_large.jpg.jpeg" alt="Oeufs"
+                    class="Produit_Image_Taille Presentation_Oeufs">
+            </picture>
+            <picture>
+                <source srcset="assets/epicerie/21-800x800_6f408625-b7d7-4663-b18e-65f8d5a98c1e_800x800.jpg.jpeg">
+                <img src="assets/epicerie/21-800x800_6f408625-b7d7-4663-b18e-65f8d5a98c1e_800x800.jpg.jpeg"
+                    alt="Gros Pain" class="Produit_Image_Taille Presentation_Gros_Pain">
+            </picture>
+            <picture>
+                <source srcset="assets/epicerie/22-800x800_3147f058-f72e-4198-8196-94f0e3e6bb20_large.jpg.jpeg">
+                <img src="assets/epicerie/22-800x800_3147f058-f72e-4198-8196-94f0e3e6bb20_large.jpg.jpeg"
+                    alt="Croissant" class="Produit_Image_Taille Presentation_Croissant">
+            </picture>
+            <picture>
+                <source srcset="assets/epicerie/23-800x800_7825e0d6-e701-4004-b331-18388908db32_large.jpg.jpeg">
+                <img src="assets/epicerie/23-800x800_7825e0d6-e701-4004-b331-18388908db32_large.jpg.jpeg"
+                    alt="Pain de campagne" class="Produit_Image_Taille Presentation_Pain_de_campagne">
+            </picture>
+            <picture>
+                <source srcset="assets/epicerie/24-800x800_063d43b9-45f7-4731-a1f8-f52099bb03c2_large.jpg.jpeg">
+                <img src="assets/epicerie/24-800x800_063d43b9-45f7-4731-a1f8-f52099bb03c2_large.jpg.jpeg" alt="Crackers"
+                    class="Produit_Image_Taille Presentation_Crackers">
+            </picture>
+        </div>
+        <div class="Produit_Fiche Sticky">
+            <h4> Redphase Unitrax</h4>
+            <h5> $80.00</h5>
+            <h6><b>Brand:</b> <span style="color: gray">colora-1</span></h6>
+            <h6 class="Produit_Availability"><b>Availability:</b><span style="color : green"> In Stock</span></h6>
+            <p>The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution.</p>
+            <p>Designed specifically for the creative professional, this display provides more space for easier access
+                to all the tools and palettes needed to edit, format and composite your work. Combine this display with
+                a Mac Pro, MacBook...</p>
+            <div class="Produit_Selection_Poids">
+                <p id="P1" class="Produit_Bouton_Poids">100g</p>
+                <p id="P2" class="Produit_Bouton_Poids">200g</p>
+                <p id="P3" class="Produit_Bouton_Poids">500g</p>
+                <p id="P4" class="Produit_Bouton_Poids">1kg</p>
+            </div>
+            <div class="Produit_Quantite_Container">
+                <p>Qty :</p>
+                <div class="Produit_Quantite">
+                    <button class="Produit_Bouton_Moins">-</button>
+                    <input type="number" value="1" min="1" class="Produit_Entree_Quantite">
+                    <button class="Produit_Bouton_Plus">+</button>
+                </div>
+            </div>
+            <div class="Produit_Bouton_Container">
+                <button class="Produit_Bouton_Ajouter"><img src="assets/icons8-cart-32.png">Add to cart</button>
+                <button class="Produit_Bouton_Favori">
+                    <svg class="Coeur_Icone" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="Produit_Description_Container">
+        <div class="Produit_Description_Choix">
+            <button class="Produit_Description_Bouton" data-description="description">
+                <p style="font-weight: bold;">DESCRIPTION</p>
+            </button>
+            <button class="Produit_Description_Bouton" data-description="reviews">
+                <p style="font-weight: bold;">REVIEWS</p>
+            </button>
+            <button class="Produit_Description_Bouton" data-description="additional-info">
+                <p style="font-weight: bold;">ADDITIONAL INFORMATION</p>
+            </button>
+            <button class="Produit_Description_Bouton" data-description="tags">
+                <p style="font-weight: bold;">TAGS</p>
+            </button>
+        </div>
+        <div class="Produit_Description_Paragraphe">
+            <div class="Produit_Piste_Scroll">
+                <div class="Produit_Curseur_Scroll"></div>
+            </div>
+            <p>The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed
+                specifically for the creative professional, this display provides more space for easier access to all
+                the tools and palettes needed to edit, format and composite your work. Combine this display with a Mac
+                Pro, MacBook Pro, or PowerMac G5 and there's no limit to what you can achieve</p>
+            <p>The Cinema HD features a single cable design with elegant breakout for the USB 2.0 FireWire 400 and a
+                pure digital connection using the industry standard Digital Video Interface (DVI). The DVI connection
+                allows for a direct pure-digital connection.</p>
+            <h4>Features :</h4>
+            <p> Unrivaled display performance</p>
+            <ul>
+                <li>30-inch (viewable) active-matrix liquid crystal display provides breathtaking image quality and
+                    vivid,, richly saturated color.</li>
+                <li>Support for 2560-by-1600 pixel resolution for display of high definition still and video imagery.
+                </li>
+                <li>Wide-format design for simultaneous display of two pages of text and graphics.</li>
+                <li>Industry standard DVI connector for direct attachment to Mac- and Windows-based desktops and
+                    notebooks.</li>
+                <li>Incredible wide (170 degree) horizontal and vertical viewing angle for maximum visibility and color
+                    performance.</li>
+                <li>Lightning-fast pixel response for full-motion digital video playback.</li>
+                <li>Support for 16.7 million saturated colors, for use in all graphics-intensive applications.</li>
+            </ul>
+            <p>Simple setup and operation</p>
+            <ul>
+                <li>Single cable with elegant breakout for connection to DVI, USB and FireWire ports</li>
+                <li>Built-in two-port USB 2.0 hub for easy connection of desktop peripherals devices.</li>
+                <li>Two FireWire 400 ports to support iSight and other desktop peripherals.</li>
+            </ul>
+            <h4>Technical Specifications</h4>
+            <p>Screen size (diagonal viewable image size)</p>
+            <ul>
+                <li>Apple Cinema HD Display: 30 inches (29,7-inch viewable)</li>
+            </ul>
+            <p>Screen type</p>
+            <ul>
+                <li>Thin film transistor (TFT) active-matrix liquid crystal display (AMLCD)</li>
+            </ul>
+            <p>Resolutions</p>
+            <ul>
+                <li>2560 x 1600 pixels (optimum resolution)</li>
+                <li>2048 x 1280</li>
+                <li>1920 x 1200</li>
+                <li>1280 x 800</li>
+                <li>1024 x 640</li>
+            </ul>
+            <p>Display colors (maximum)</p>
+            <ul>
+                <li>16.7 million</li>
+            </ul>
+            <p>Viewing angles (typical)</p>
+            <ul>
+                <li>170° horizontal;170° vertical</li>
+            </ul>
+            <p>Brightness (typical)</p>
+            <ul>
+                <li>30-inch Cinema HD Display: 400 cd/m²</li>
+            </ul>
+            <p>Contrast ratio (typical)</p>
+            <ul>
+                <li>700:1</li>
+            </ul>
+            <p>Response time (typical)</p>
+            <ul>
+                <li>16 ms</li>
+            </ul>
+            <p>Pixel pitch</p>
+            <ul>
+                <li>30-inch Cinema HD Display: 0.240 mm</li>
+            </ul>
+            <p>Screen treatment</p>
+            <ul>
+                <li>Anti-glare hardcoat</li>
+            </ul>
+            <p>User controls (hardware and software)</p>
+            <ul>
+                <li>Display power</li>
+                <li>System sleep,wake</li>
+                <li>Brightness</li>
+                <li>Monitor tilt</li>
+            </ul>
+            <p>Electrical requirements</p>
+            <ul>
+                <li>Input voltage: 100-240 VAC 50-60Hz</li>
+                <li>Maximum power when operating: 150W</li>
+                <li>Energy saver mode: 3W or less</li>
+            </ul>
+            <p>Environmental requirements</p>
+            <ul>
+                <li>Operating temperature: 50° to 95° F (10° to 35° C)</li>
+                <li>Storage temperature: -40° to 116° F (-40° to 47° C)</li>
+                <li>Operating humidity: 20% to 80% noncondensing</li>
+                <li>Maximum operating altitude: 10,000 feet (3,048 meters)</li>
+            </ul>
+            <p>Agency approvals</p>
+            <ul>
+                <li>FCC Part 15 Class B</li>
+                <li>EN55022 Class B</li>
+                <li>EN55024</li>
+                <li>VCCI Class B</li>
+                <li>AS/NZS 3548 Class B</li>
+                <li>CNS 13438 Class B</li>
+                <li>ICES-003 Class B</li>
+                <li>ISO 13406 part 2</li>
+                <li>MPR II</li>
+                <li>IEC 60950</li>
+                <li>UL 60950</li>
+                <li>CSA 60950</li>
+                <li>EN 60950</li>
+                <li>ENERGY STAR</li>
+                <li>TCO'03</li>
+            </ul>
+            <p>Size and weight</p>
+            <p>30-inch Apple Cinema HD Display</p>
+            <ul>
+                <li>Height: 21.3 inches (54,3 cm)</li>
+                <li>Width: 27.2 inches (68,8 cm)</li>
+                <li>Depth: 8.46 inches (21,5 cm)</li>
+                <li>Weight: 27.5 pounds (12,5 kg)</li>
+            </ul>
+            <p>System requirements</p>
+            <ul>
+                <li>Mac Pro, all graphics options</li>
+                <li>MacBook Pro</li>
+                <li>Power Mac G5 (PCI-X) with ATI Radeon 9650 or better or NVIDIA GeForce 6800 GT DDL or better</li>
+                <li>Power Mac G5 (PCI Express), all graphics options</li>
+                <li>PowerBook G4 with dual-link DVI support</li>
+                <li>Windows PC and graphics card that supports DVI ports with dual-link bandwidth and VESA DDC standard
+                    for plug-and-play setup</li>
+            </ul>
+        </div>
+    </div>
+    <div class="Produit_Recommande">
+        <div class="Produit_Recommande_Titre">
+            <h4 class="Produit_Titre_Recommandation">We Also Recommend</h4>
+        </div>
+        <div class="Produit_Recommande_Image Border_Right_Left Oeufs">
+            <div class="Produit_Recommande_Container Border_Right_Left">
+                <picture>
+                    <source srcset="assets/epicerie/16-800x800_800x800.jpg.jpeg">
+                    <img src="assets/epicerie/16-800x800_800x800.jpg.jpeg" alt="Oeufs" class="Produit_Taille_Image">
+                </picture>
+                <h4>Zer Solola Sun</h4>
+                <h5> $80.00</h5>
+            </div>
+            <div class="Produit_Recommande_Container Border_Right Cheesecake">
+                <picture>
+                    <source srcset="assets/epicerie/19-800x800_800x800.jpg.jpeg">
+                    <img src="assets/epicerie/19-800x800_800x800.jpg.jpeg" alt="Charlotte" class="Produit_Taille_Image">
+                </picture>
+                <h4>Konkplus Zum-In</h4>
+                <h5> $80.00</h5>
+            </div>
+            <div class="Produit_Recommande_Container Brioche">
+                <picture>
+                    <source srcset="assets/epicerie/20-800x800_800x800.jpg.jpeg">
+                    <img src="assets/epicerie/20-800x800_800x800.jpg.jpeg" alt="Brioche" class="Produit_Taille_Image">
+                </picture>
+                <h4>Zim-Ing La Joynix</h4>
+                <h5> $80.00</h5>
+            </div>
+            <div class="Produit_Recommande_Container Border_Right_Left Muffin">
+                <picture>
+                    <source srcset="assets/epicerie/26-800x800_800x800.jpg.jpeg">
+                    <img src="assets/epicerie/26-800x800_800x800.jpg.jpeg" alt="Cupcake" class="Produit_Taille_Image">
+                </picture>
+                <h4>Zummatough Tontamtough</h4>
+                <h5> $80.00</h5>
+            </div>
+        </div>
+    </div>
+    <footer class="Detail_Footer">
+        <div class="Footer_Incription Taille_Page">
+            <div>
+                <p class="Titre_Noir_Gras">Sign Up For Our Newsletter!</p>
+                <p>Get e-mail updates about shop and special offers.</p>
+            </div>
+            <div class="Inscription">
+                <input type="email" name="email" placeholder="Email Address" class="Inscription_Entree">
+                <a href="#" class="Bouton_Inscription">Subscribe</a>
+            </div>
+        </div>
+
+        <div class="Taille_Page Footer_Colone_Placement">
+
+            <div class="Colone_Footer">
+                <div>
+                    <p class="Titre_Noir_Gras">About Us</p>
+                </div>
+                <div>
+                    <div class="A_La_Ligne">
+                        <p>The best way to remember a memorable event is to capture it. Enter cameras. Flipkart features
+                            a wide selection.</p>
+                    </div>
+                    <div class="A_La_Ligne Police_Gris">
+                        <img src="assets/epicerie/location.png" alt="loc" width="15px">
+                        <span>Address: 123 Main Street. Anytown, CA 12345 USA.</span>
+                    </div>
+                    <div class="A_La_Ligne Police_Gris">
+                        <img src="assets/epicerie/iphone.png" alt="phone" width="15px">
+                        <span>Phone: (800) 123 456 789</span>
+                    </div>
+                    <div class="A_La_Ligne Police_Gris">
+                        <img src="assets/epicerie/envelope.png" alt="mail" width="15px">
+                        <span>Email: support@masstechnologist.c</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Colone_Footer">
+                <div>
+                    <p class="Titre_Noir_Gras">New Products</p>
+                </div>
+                <div>
+                    <div class="Footer_Produit">
+                        <img src="assets/epicerie/33-800x800_800x800.jpg.jpeg" alt="cookie" width="60px">
+                        <div>
+                            <p>Zim-Ing La Joynix</p>
+                            <h5 class="Police_Orange">$80.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="Footer_Produit">
+                        <img src="assets/epicerie/32-800x800_9b13698d-f0cf-4fd9-9d04-9b892dc917bc_800x800.jpg.jpeg"
+                            alt="pain" width="60px">
+                        <div>
+                            <p>Ovejob Treeit Goldfresh</p>
+                            <h5 class="Police_Orange">$80.00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Colone_Footer">
+                <div>
+                    <p class="Titre_Noir_Gras">Information</p>
+                </div>
+                <div>
+                    <p class="A_La_Ligne">About Us</p>
+                    <p class="A_La_Ligne">Delivery Information</p>
+                    <p class="A_La_Ligne">Privacy Policy</p>
+                    <p class="A_La_Ligne"> Term & Conditions</p>
+                    <p class="A_La_Ligne">Contact Us</p>
+                    <p class="A_La_Ligne">Specials</p>
+                </div>
+            </div>
+
+            <div class="Colone_Footer">
+                <div>
+                    <p class="Titre_Noir_Gras">Instagram </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="Bas_Footer">
+            <div class="Footer_Droit_Reseau">
+
+                <div>
+                    <span>©2016</span>
+                    <span class="Police_Orange">assTechnologist.com.</span>
+                    <span>All rights reserved.</span>
+                </div>
+                <div class="Image_Reseaux">
+                    <a href="#"><img src="assets/epicerie/facebook.png" alt="facebook" width="40px"></a>
+                    <a href="#"><img src="assets/epicerie/twitter.png" alt="twitter" width="40px"></a>
+                    <a href="#"><img src="assets/epicerie/pinterest.png" alt="pinterest" width="40px"></a>
+                    <a href="#"><img src="assets/epicerie/google.png" alt="google" width="40px"></a>
+                    <a href="#"><img src="assets/epicerie/instagram.png" alt="instagram" width="40px"></a>
+                </div>
+            </div>
+            <div>
+                <a href="#" class="Haut_De_Page">∧</a>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="Projet_3.js" defer></script>
+</body>
+
+</html>
